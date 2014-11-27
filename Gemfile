@@ -2,7 +2,7 @@ source "http://rubygems.org"
 ruby File.read('.ruby-version').chomp
 
 gem "foreman",                "~> 0.63"
-gem "unicorn",                "~> 4.8.0"
+gem "passenger",              "~> 5.0.0.beta1"
 gem "rails",                  "~> 4.1.0"
 gem "rails-observers",        "~> 0.1.2"
 gem "pg",                     "~> 0.17.1"
